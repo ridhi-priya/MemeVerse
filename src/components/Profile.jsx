@@ -6,8 +6,8 @@ function Profile() {
   const isDarkMode = useSelector((state) => state.theme.isDarkMode);
 
   const storedProfile = JSON.parse(localStorage.getItem("userProfile")) || {
-    name: "John Doe",
-    bio: "Meme Enthusiast | React Developer",
+    name: "Ridhi",
+    bio: "Frontend developer | React Developer",
     profilePic: "",
   };
 
